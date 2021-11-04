@@ -6,18 +6,13 @@ import { DiWebplatform, DiCodeigniter } from 'react-icons/di'
 import { 
     Button,
     useDisclosure, 
-    useRef, 
     Modal,
     ModalOverlay,
     ModalContent,
     ModalHeader,
     ModalFooter,
     ModalBody,
-    ModalCloseButton,
-    FormControl,
-    Form,
-    FormLabel,
-    Input,
+    ModalCloseButton
 } from '@chakra-ui/react'
 
 function Profile ( ) {

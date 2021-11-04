@@ -9,7 +9,6 @@ import { Button, Image, useDisclosure, Modal,
     ModalBody,
     ModalCloseButton,
     FormControl,
-    Form,
     FormLabel,
     Input} from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query'

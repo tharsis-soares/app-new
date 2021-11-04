@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Heading, VStack, IconButton } from '@chakra-ui/react'
+import { Heading, VStack } from '@chakra-ui/react'
 import TodoList from './TodoList'
 import AddTodo from './AddTodo'
 
