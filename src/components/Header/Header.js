@@ -29,7 +29,7 @@ function Header () {
                     <Text fontSize="5x1" fontWeight="semibold">Oi! Somos a</Text>
                     <Text fontSize="7x1" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Caramelo Web</Text>
                     <Text color={isDark ? "gray.200" : "gray.500"} >Desevolvedor Web Javascript, React, Vue, Angular</Text>
-                <Button mt={8} colorSchema="blue" onClick={onOpen}>Contrate-me</Button>
+                <Button mt={8} onClick={onOpen}>Contrate-me</Button>
                 <Modal
             isOpen={isOpen}
             onClose={onClose}

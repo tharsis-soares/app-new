@@ -6,20 +6,6 @@ import AddTodo from './AddTodo'
 function TodoArea() {
 
     
-  const initialTodos = [
-    {
-        id: 1,
-        body: 'fazer app',
-    },
-    {
-        id: 2,
-        body: 'fazer web-app',
-    },
-    {
-        id: 3,
-        body: 'estudo continuo'
-    }
-  ]
    
   const [todos, setTodos] = useState(
       () => JSON.parse(localStorage.getItem('todos')) || []) 
