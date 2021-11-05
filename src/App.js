@@ -6,7 +6,7 @@ import Header from './components/Header/Header.js';
 import Profile from './components/Profile/Profile.js';
 import Footer from './components/Footer/Footer.js';
 import TodoArea from './components/TodoArea/TodoArea.js';
-
+import BreakingBad from './components/BreakingBad/BreakingBad.js'
 function App() {
   
   const { colorMode, toggleColorMode } = useColorMode();
@@ -25,6 +25,7 @@ function App() {
       <Header></Header>
       <Profile></Profile>
       <TodoArea></TodoArea>
+      <BreakingBad>teste</BreakingBad>
       <Footer></Footer>
     </VStack>
   );
